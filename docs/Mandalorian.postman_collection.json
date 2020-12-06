@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "eaf16666-e766-4456-833e-926b78d1eed9",
+		"name": "Mandalorian",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Relsonare API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Mandalorian/resolnare",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Mandalorian",
+						"resolnare"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Relsonare API Message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Mandalorian/message",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Mandalorian",
+						"message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Relsonare FX",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/Relsonare",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Relsonare"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Relsonare FX Message",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/Message",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Message"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
